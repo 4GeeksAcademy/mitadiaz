@@ -46,7 +46,13 @@ span.punto {
     font-size: 1.5em;
 
 }
-
+span.icon-css {
+    height: 80%;
+    width: 0%;
+    align-self: center;
+    font-size: 1.7em;
+    margin: 4px 4px 0px 8px;
+}
 
 
 
