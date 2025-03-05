@@ -1,12 +1,12 @@
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Big shoulders inline", sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
 .img{
-    height: 400px;
-    width: 300px;
+    height: 100%;
+    width: 60%;
 }
 
 
@@ -26,27 +26,30 @@
 
     width: 100%;
     height: 10%;
-    display: flex;
+    padding: 8px;
+    display: flex; 
     flex-direction: row;
     justify-content: space-between;
     
 
 }
 
- span.text {
-    height: 80%;
+ p.text {
+   height: 80%;
    width: 85%;
    align-self: flex-start;
    font-size: 1em;
    padding: 8px 10px 0px 10px;
 }
-span.punto {
+
+p.punto {
     margin: 8px 15px 8px 0px;
     align-self: center;
     font-size: 1.5em;
 
 }
-span.icon-css {
+
+p.stiloicono {
     height: 80%;
     width: 0%;
     align-self: center;
@@ -54,8 +57,52 @@ span.icon-css {
     margin: 4px 4px 0px 8px;
 }
 
-
-
-
-
+.buttons {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
+
+i.heart {
+    height: 80%;
+    width: 4%;
+    align-self: center;
+    font-size: 1.5em;
+    margin: 4px 4px 0px 8px;
+}
+
+i.comment {
+    
+        height: 80%;
+       width: 4%;
+       align-self: center;
+       font-size: 1.5em;
+       margin: 4px 4px 0px 8px;
+    }
+
+i.plane {
+        
+            height: 80%;
+           width: 80%;
+           align-self: center;
+           font-size: 1.5em;
+           margin: 4px 4px 0px 8px;
+        }
+
+i.etiqueta {
+        margin: 8px 15px 8px 0px;
+        align-self: center;
+        font-size: 1.5em;
+}
+.body {
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    font-size: 1em;
+    
+}     
+    
+    
+ 
